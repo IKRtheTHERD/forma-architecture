@@ -20,9 +20,10 @@ export default function RootLayout({
       <body className="bg-drafting-grid text-[#1A1A1A] antialiased min-h-screen flex flex-col justify-between cursor-crosshair-oxide selection:bg-[#C1440E] selection:text-white">
         <CrosshairCursor />
         <Navbar />
-        <main className="flex-1 w-full">{children}</main>
+        <main className="flex-1 w-full"><SmoothScrollProvider>{children}</SmoothScrollProvider></main>
         <Footer />
       </body>
     </html>
   );
 }
+\nimport SmoothScrollProvider from '@/components/SmoothScrollProvider';
