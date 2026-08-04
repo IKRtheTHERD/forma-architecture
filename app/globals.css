@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F5F4F0;
+  --foreground: #1A1A1A;
+  --oxide-red: #C1440E;
+  --blueprint-blue: #4A6FA5;
+  --grid-line: rgba(26, 26, 26, 0.08);
+}
+
+@theme {
+  --color-paper: #F5F4F0;
+  --color-paper-dark: #EBEBEB;
+  --color-ink: #1A1A1A;
+  --color-oxide: #C1440E;
+  --color-blueprint: #4A6FA5;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Drafting Paper Background Grid */
+.bg-drafting-grid {
+  background-color: #F5F4F0;
+  background-image: 
+    linear-gradient(to right, rgba(26, 26, 26, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(26, 26, 26, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-blueprint-grid {
+  background-color: #0F172A;
+  background-image: 
+    linear-gradient(to right, rgba(74, 111, 165, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(74, 111, 165, 0.25) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Structural Borders */
+.border-structural {
+  border-color: rgba(26, 26, 26, 0.2);
+}
+
+.border-oxide {
+  border-color: #C1440E;
+}
+
+/* Monospace technical accent */
+.font-mono-tech {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  letter-spacing: 0.05em;
+}
+
+/* Custom Crosshair Cursor Utility */
+.cursor-crosshair-oxide {
+  cursor: crosshair;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EBEBEB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C1440E;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1A1A;
+}
