@@ -90,12 +90,18 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-gray-400 font-mono-tech text-[10px] gap-4">
-          <div>
-            © {new Date().getFullYear()} FORMA ARCHITECTURE SCHOOL. ALL RIGHTS RESERVED.
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <span>© 2025 Darin. All rights reserved.</span>
+            <span className="hidden sm:inline text-[#C1440E]">//</span>
+            <span>Sulaymaniyah, Kurdistan</span>
+            <span className="hidden sm:inline text-[#C1440E]">//</span>
+            <a href="mailto:IBR.KR@outlook.com" className="hover:text-[#C1440E] transition-colors">
+              IBR.KR@outlook.com
+            </a>
           </div>
           <div className="flex items-center gap-6">
             <span>BRUTALIST DRAFTING AESTHETIC V4</span>
-            <span className="text-[#C1440E]">SCALE 1:1</span>
+            <span className="text-[#C1440E]">Designed &amp; Developed by Darin</span>
           </div>
         </div>
       </div>
