@@ -101,11 +101,12 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-6">
             <span>BRUTALIST DRAFTING AESTHETIC V4</span>
-            <span className="text-[#C1440E]">Designed &amp; Developed by SimaVision x Ibrahim</span>
+            <span className="text-[#C1440E]">MADE BY IBRAHIM K.R</span>
           </div>
         </div>
       </div>
     </footer>
   );
 }
+
 
