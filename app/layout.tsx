@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import CrosshairCursor from '@/components/CrosshairCursor';
+import SmoothScrollProvider from '@/components/SmoothScrollProvider';
 
 export const metadata: Metadata = {
   title: 'FORMA ARCHITECTURE // Advanced Online Studio School',
@@ -26,4 +27,3 @@ export default function RootLayout({
     </html>
   );
 }
-\nimport SmoothScrollProvider from '@/components/SmoothScrollProvider';
