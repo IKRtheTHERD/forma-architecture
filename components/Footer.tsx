@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React from 'react';
 import Link from 'next/link';
@@ -23,7 +23,7 @@ export default function Footer() {
               Architecture is an argument. Make yours. Advanced computational studio coursework, Pritzker laureate critiques, and structural synthesis for practicing architects.
             </p>
             <div className="text-[10px] font-mono-tech text-[#C1440E]">
-              LAT: 51.5074° N, LON: 0.1278° W
+              LAT: 51.5074Â° N, LON: 0.1278Â° W
             </div>
           </div>
 
@@ -91,7 +91,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-gray-400 font-mono-tech text-[10px] gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <span>© 2025 Darin. All rights reserved.</span>
+            <span>Â© 2025 SimaVision x Ibrahim. All rights reserved.</span>
             <span className="hidden sm:inline text-[#C1440E]">//</span>
             <span>Sulaymaniyah, Kurdistan</span>
             <span className="hidden sm:inline text-[#C1440E]">//</span>
@@ -101,10 +101,11 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-6">
             <span>BRUTALIST DRAFTING AESTHETIC V4</span>
-            <span className="text-[#C1440E]">Designed &amp; Developed by Darin</span>
+            <span className="text-[#C1440E]">Designed &amp; Developed by SimaVision x Ibrahim</span>
           </div>
         </div>
       </div>
     </footer>
   );
 }
+
