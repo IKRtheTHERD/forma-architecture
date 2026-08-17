@@ -1,8 +1,9 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
   font-size: 13px;
+}
 
 :root {
   --background: #F5F4F0;
